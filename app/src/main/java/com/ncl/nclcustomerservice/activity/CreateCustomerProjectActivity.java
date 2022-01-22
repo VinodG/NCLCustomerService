@@ -48,6 +48,7 @@ public class CreateCustomerProjectActivity extends NetworkChangeListenerActivity
     View parent;
     String form_type;
     int id;
+
     DatabaseHandler db;
     @BindView(R.id.title_text)
     TextView title_text;
